@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(authRoutes);
 
 const mongoUri =
-  "mongodb+srv://admin:admin123@cluster0.gvenv.mongodb.net/test?retryWrites=true&w=majority";
+  "Paste your Mongo URI here";
 if (!mongoUri) {
   throw new Error(`MongoURI was not supplied`);
 }
